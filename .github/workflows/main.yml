@@ -27,4 +27,4 @@ jobs:
     - name: Test secret avaiable
       run: |
       if: ${{env.key1}} == '123'
-        echo match 123 $SUPER_SECRET 
+      run: echo match 123 $SUPER_SECRET 
