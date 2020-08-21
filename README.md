@@ -1,15 +1,13 @@
 # Notes System
 
+## Description
+
 Notes System Architecture
 * nestjs framework used to build applications
 * containerised docker application
 * backend - notes rest api with mongo db
 * front end - notes UI
 * administration - notes admin UI
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
