@@ -25,6 +25,6 @@ jobs:
     #    echo test, and deploy your project.
 
     - name: Test secret avaiable
-      run:
+      run: |
       if: ${{env.key1}} == '123'
         echo match 123 $SUPER_SECRET 
