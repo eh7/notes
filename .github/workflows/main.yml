@@ -30,6 +30,6 @@ jobs:
 
     - name: Test secret avaiable
       env:
-        SUPER_SECRET: ${{ secrets.SuperSecret }}
+        SUPER_SECRET: ${{ secrets.TESTVAR }}
       run: |
         echo "$env:SUPER_SECRET" 
