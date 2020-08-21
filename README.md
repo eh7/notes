@@ -1,8 +1,13 @@
-### notes system
+<p align="center">
+  Notes System
+</p>
 
 
-Architecture
+Notes System Architecture
 <ul>
+  <li>
+nestjs framework used to build applications
+  </li>
   <li>
 containerised docker application
   </li>
