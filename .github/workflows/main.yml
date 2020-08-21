@@ -29,4 +29,7 @@ jobs:
     #    echo test, and deploy your project.
 
     - name: Test secret avaiable
-      run: echo ${{ secrets.SuperSecret }} 
+      env:
+        SUPER_SECRET: ${{ secrets.SuperSecret }}
+      run: |
+        echo "$env:SUPER_SECRET" 
