@@ -1,11 +1,21 @@
-# notes app
+### notes system
+
 
 Architecture
-
+<ul>
+  <li>
 containerised docker application
+  </li>
+  <li>
 backend - notes rest api with mongo db
+  </li>
+  <li>
 front end - notes UI
+  </li>
+  <li>
 administration - notes admin UI
+  </li>
+</ul>
 
 
 <p align="center">
