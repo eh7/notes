@@ -27,7 +27,3 @@ jobs:
     - name: Test secret avaiable 1
       run: echo match 123 $SUPER_SECRET 
       if: ${{env.key1}} == '123'
-
-    - name: Test secret avaiable 2
-      run: echo no match 1234 $SUPER_SECRET (control to prove validity - if you see it is all good.) 
-      if: ${{env.key1}} == '1234'
